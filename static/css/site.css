@@ -13,7 +13,16 @@ body {
 }
 
 .landing-page {
-    background: url(../img/bg-landingpage.svg) no-repeat center center fixed;
+    background: url(../img/bg-landingpage.svg) no-repeat center ;
+}
+
+.second-page {
+    background: url(../img/bg-secondpage.svg) no-repeat center ;
+}
+
+.page {       
+    padding: 20px;
+    margin-bottom: 40px;
     background-position: inherit;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,17 +30,17 @@ body {
     background-size: cover;
 }
 
-.page {       
-    padding: 20px;
-    margin-bottom: 40px;
-}
-
 h1,h2,h3,h4 {
     font-family: 'zenai itachi';
     font-size: 36px;
 }
+p {
+    font-family: 'Book Antiqua';
+    color: white;
+    font-size: 18px;
+}
 
 @font-face {
     font-family: 'zenai itachi';
-    src:url('../fonts/yoshi.ttf');
+    src:url('../fonts/cinnamon cake.ttf');
 }
