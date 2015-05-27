@@ -43,5 +43,5 @@ p {
 
 @font-face {
     font-family: 'zenai itachi';
-    src:url('../fonts/cinnamon cake.ttf') format('opentype');
+    src:url('../fonts/cinnamon cake.ttf');
 }
